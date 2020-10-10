@@ -1,0 +1,10 @@
+run this in case of mvnw command errors
+then rerun the mvnw or mvn commands
+
+		mvn spring-javaformat:apply
+		
+		
+		mvnw spring-javaformat:apply  clean compile
+		mvnw spring-javaformat:apply  test
+		mvnw spring-javaformat:apply  package
+		mvnw spring-javaformat:apply clean package
