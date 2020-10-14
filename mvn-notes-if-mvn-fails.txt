@@ -4,7 +4,9 @@ then rerun the mvnw or mvn commands
 		mvn spring-javaformat:apply
 		
 		
-		mvnw spring-javaformat:apply  clean compile
-		mvnw spring-javaformat:apply  test
-		mvnw spring-javaformat:apply  package
+		mvnw spring-javaformat:apply clean compile
+		mvnw spring-javaformat:apply test
+		mvnw spring-javaformat:apply package
 		mvnw spring-javaformat:apply clean package
+		
+$ java -Dserver.port=9091 -jar spring-petclinic-2.3.1.BUILD-SNAPSHOT.jar
