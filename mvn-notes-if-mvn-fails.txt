@@ -10,3 +10,6 @@ then rerun the mvnw or mvn commands
 		mvnw spring-javaformat:apply clean package
 		
 $ java -Dserver.port=9091 -jar spring-petclinic-2.3.1.BUILD-SNAPSHOT.jar
+
+[ERROR] Failed to perform fetch
+org.eclipse.jgit.api.errors.TransportException: https://github.com/smandan/jgsu-spring-petclinic.git: cannot open git-upload-pack
